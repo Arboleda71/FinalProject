@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Tienda Gamer</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-dark text-light">
+
+<div class="container mt-5">
+
+<h1 class="text-center mb-4">Tienda Tecnologia</h1>
+
+<ul class="nav nav-pills justify-content-center mb-4">
+
+<li class="nav-item">
+<button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pcs">PCs</button>
+</li>
+
+<li class="nav-item">
+<button class="nav-link" data-bs-toggle="pill" data-bs-target="#sillas">Sillas Gamer</button>
+</li>
+
+<li class="nav-item">
+<button class="nav-link" data-bs-toggle="pill" data-bs-target="#gpu">Tarjetas Gráficas</button>
+</li>
+
+<li class="nav-item">
+<button class="nav-link" data-bs-toggle="pill" data-bs-target="#monitores">Monitores</button>
+</li>
+
+<li class="nav-item">
+<button class="nav-link" data-bs-toggle="pill" data-bs-target="#consolas">Consolas</button>
+</li>
+
+</ul>
+
+<div class="tab-content">
+
+<div class="tab-pane fade show active" id="pcs">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>PC Gamer RTX 4060</h5>
+<p>$4.500.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#pc1">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="pc1">
+<ul>
+<li>Intel i7</li>
+<li>16GB RAM</li>
+<li>RTX 4060</li>
+<li>SSD 1TB</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>PC Gamer RTX 4070</h5>
+<p>$6.000.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#pc2">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="pc2">
+<ul>
+<li>Ryzen 7</li>
+<li>32GB RAM</li>
+<li>RTX 4070</li>
+<li>SSD 2TB</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>PC Gamer RTX 4090</h5>
+<p>$10.000.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#pc3">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="pc3">
+<ul>
+<li>Intel i9</li>
+<li>64GB RAM</li>
+<li>RTX 4090</li>
+<li>SSD 4TB</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="tab-pane fade" id="sillas">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>Silla Gamer RGB</h5>
+<p>$900.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#silla1">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="silla1">
+<ul>
+<li>Luces RGB</li>
+<li>Cuero sintético</li>
+<li>Reclinable 180°</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>Silla Gamer Pro</h5>
+<p>$1.200.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#silla2">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="silla2">
+<ul>
+<li>Ergonómica</li>
+<li>Soporte lumbar</li>
+<li>Reposabrazos ajustables</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="tab-pane fade" id="gpu">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>NVIDIA RTX 4060</h5>
+<p>$1.800.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#gpu1">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="gpu1">
+<ul>
+<li>8GB GDDR6</li>
+<li>Ray Tracing</li>
+<li>DLSS 3</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>NVIDIA RTX 4070</h5>
+<p>$3.000.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#gpu2">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="gpu2">
+<ul>
+<li>12GB GDDR6X</li>
+<li>Ray Tracing</li>
+<li>DLSS 3</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>NVIDIA RTX 4090</h5>
+<p>$7.000.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#gpu3">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="gpu3">
+<ul>
+<li>24GB GDDR6X</li>
+<li>Ray Tracing</li>
+<li>DLSS 3</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="tab-pane fade" id="monitores">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>Monitor Gamer 144Hz</h5>
+<p>$1.200.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#monitor1">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="monitor1">
+<ul>
+<li>24 pulgadas</li>
+<li>Full HD</li>
+<li>144Hz</li>
+<li>IPS</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>Monitor Gamer 240Hz</h5>
+<p>$2.000.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#monitor2">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="monitor2">
+<ul>
+<li>27 pulgadas</li>
+<li>2K</li>
+<li>240Hz</li>
+<li>IPS</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>Monitor Gamer 4K</h5>
+<p>$3.000.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#monitor3">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="monitor3">
+<ul>
+<li>32 pulgadas</li>
+<li>4K</li>
+<li>144Hz</li>
+<li>OLED</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="tab-pane fade" id="consolas">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>PlayStation 5</h5>
+<p>$2.800.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#ps5">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="ps5">
+<ul>
+<li>825GB SSD</li>
+<li>4K</li>
+<li>Ray Tracing</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-dark mb-3">
+<div class="card-body">
+<h5>Xbox Series X</h5>
+<p>$2.600.000</p>
+
+<button class="btn btn-primary">Comprar</button>
+
+<button class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#xbox">
+Ver especificaciones
+</button>
+
+<div class="collapse mt-2" id="xbox">
+<ul>
+<li>1TB SSD</li>
+<li>4K</li>
+<li>120FPS</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
