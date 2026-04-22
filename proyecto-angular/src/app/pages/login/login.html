@@ -1,0 +1,58 @@
+<div class="container text-center">
+  <div class="row min-vh-100 align-items-center">
+    <div class="col align-self-start"></div>
+
+    <div class="col align-self-center">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="text-center mb-4">Login</h3>
+
+          @if (error()) {
+            <p class="text-danger">{{ error() }}</p>
+          }
+
+          <form (ngSubmit)="onSubmit()">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+                [(ngModel)]="email"
+                name="email"
+                required
+              />
+              <label for="floatingInput">Correo electrónico</label>
+            </div>
+
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+                [(ngModel)]="password"
+                name="password"
+                required
+              />
+              <label for="floatingPassword">Contraseña</label>
+            </div>
+
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-dark mt-3" type="submit">
+                Iniciar sesión
+              </button>
+            </div>
+          </form>
+
+          <p class="mt-3">
+            ¿No tienes cuenta?
+            <a routerLink="/register">Regístrate</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col align-self-end"></div>
+  </div>
+</div>
